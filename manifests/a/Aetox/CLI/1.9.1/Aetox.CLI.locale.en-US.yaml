@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: Aetox.CLI
+PackageVersion: 1.9.1
+PackageLocale: en-US
+Publisher: Aetox
+PublisherUrl: https://github.com/Mikedev115/Aetox
+PublisherSupportUrl: https://github.com/Mikedev115/Aetox/issues
+Author: Chayaphon Phromsawana
+PackageName: Aetox CLI
+PackageUrl: https://github.com/Mikedev115/Aetox
+License: Proprietary
+LicenseUrl: https://github.com/Mikedev115/Aetox/blob/main/LICENSE
+Copyright: © 2026 Chayaphon Phromsawana (Mike). All rights reserved.
+ShortDescription: Aetox in the terminal — an AI coding desk as a full-screen console.
+Description: |-
+  Aetox CLI is the coding desk of Aetox as a full-screen terminal console. Type `aetox` in any folder,
+  give it a task, and watch the tool calls land above the input; approval cards are answered in place.
+  `aetox chat "task"` runs one turn with the answer on stdout, for scripts.
+  It uses the Aetox desktop app's engine, keys, chats and memory when the app is installed on the same
+  machine, and the engine that ships with it otherwise.
+Moniker: aetox
+Tags:
+- ai
+- ai-agent
+- cli
+- coding-agent
+- llm
+- terminal
+ReleaseNotesUrl: https://github.com/Mikedev115/Aetox/blob/main/docs/release-notes/v1.9.1.md
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
